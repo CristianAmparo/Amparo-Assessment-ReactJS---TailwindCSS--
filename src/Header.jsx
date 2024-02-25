@@ -1,11 +1,8 @@
-import React from 'react'
 import { useState } from 'react'
 
-
 const Header = () => {
-
   const [selectedOption, setSelectedOption] = useState('Home');
-
+  
   const handleOptionClick = (category) => {
     setSelectedOption(category);
   };
